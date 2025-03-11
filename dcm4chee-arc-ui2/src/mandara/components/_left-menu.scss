@@ -1,0 +1,56 @@
+.bi {
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+  }
+  
+  /*
+   * Sidebar
+   */
+  
+   .offcanvas .offcanvas-body .nav-link {
+	font-size: .875rem;
+	font-weight: 500;
+  }
+  
+  /* Active/current link */
+  .offcanvas .nav-link.active {
+	color: var(--k-radio-dark-gray);
+	background-color: var(--k-radio-gray);
+  }
+
+  /* Links on mouse-over */
+.offcanvas a:hover:not(.active) {
+	background-color: #cfd2db;
+	color: white;
+  }
+  
+  .offcanvas-heading {
+	font-size: .75rem;
+  }
+  
+  /*
+   * Navbar
+   */
+  
+  .navbar-brand {
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+	//background-color: rgba(0, 0, 0, .25);
+	//box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+  }
+  
+  .navbar .form-control {
+	padding: .75rem 1rem;
+  }
+  
+  .offcanvas a {
+    cursor: pointer;
+    color: var(--kapsiki-dark-gray);
+  }
+  
+  .offcanvas-title{
+    content: url(../../assets/img/kapsiki-radiology-logo.svg);
+    max-width: 200px;
+    height: auto;
+  }
